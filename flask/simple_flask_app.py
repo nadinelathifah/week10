@@ -27,6 +27,7 @@ def get_text():
     return "★ This is a HTTP GET request ★"
 
 # Use postman for this and the rest:
+# Make sure you keep Python running while using postman
 @app.route('/post/text', methods=['POST'])
 def post_text():
     data_sent = request.data.decode('utf-8')
