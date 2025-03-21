@@ -1,23 +1,32 @@
+"""
+Import Flask, request, url_for by hovering over 'flask' and on the pop-up click 'install package'.
+Once the package has been installed, create a requirements.txt file and add flask as a requirement.
+The requirements page should now have 'flask~=3.1.0' written inside.
+"""
 from flask import Flask, request, url_for
 
+# Instantiate an object 'app' from Flask.
 app = Flask(__name__)
 
-
+# @app.route is a Flask decorator that tells Flask to map the function hello_from_flask() to the URL '/hello'
+# When a request comes to the /hello URL, call the function immediately after the URL.
+# Example: after you run this block of code, go on Google and paste the link http://127.0.0.1:5000/hello
+#          If this doesn't work, paste http://127.0.0.1:5001/hello
 @app.route('/hello')
 def hello_from_flask():
     return "★ Hello from Flask ★"
 
-
+# http://127.0.0.1:5001/bye returns the following message on the browser.
 @app.route('/bye')
 def bye_from_flask():
     return "★ Goodbye from Flask ★"
 
-
+# http://127.0.0.1:5000/get/strawberry
 @app.route('/get/text')
 def get_text():
     return "★ This is a HTTP GET request ★"
 
-
+# Use postman for this and the rest:
 @app.route('/post/text', methods=['POST'])
 def post_text():
     data_sent = request.data.decode('utf-8')
