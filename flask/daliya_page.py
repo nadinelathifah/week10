@@ -28,10 +28,13 @@ def hello_3():
 def liya():
     return render_template("liya.html")
 
-@app.route("daliya/nadine/hello_nadine")
+@app.route("/daliya/nadine/hello_nadine")
 def hello_nadine():
     return render_template('nadine.html')
 
+@app.route("daliya/emma")
+def emma_page():
+    return render_template("emmas_page.html")
 
 # @app.route('/<string:name>')
 # def home(name):
@@ -57,4 +60,4 @@ def hello_nadine():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=8000, debug=True)
