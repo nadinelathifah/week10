@@ -1,0 +1,42 @@
+h1{
+background-color: #a480cfff;
+text-align:center;
+}
+
+.carousel > .carousel-inner > .carousel-item > img{
+    width:240px;
+    height:160px;
+}
+
+/*.carousel-inner{
+height: 70%;
+width: 35%;
+align-items: right;
+}
+
+
+
+/*.about-section .container {    background-color: rgb(255, 255, 255);
+height: 100vh;
+display: flex;
+justify-content: space-between;
+padding-right: 100px;
+padding-top: 100px;}
+.about-section h2 {
+padding-left: 600px;
+padding-top: 100px;
+flex: 1;
+text-align: left;
+text-transform: capitalize;}
+
+.carousel-inner {    height: 70%;
+width: 35%;
+align-items: right;}
+
+/*.carousel-item {    height: 100%; /* Each item (image) should fill the height of the carousel container */
+/*width: 100%;}
+.carousel-item img {
+object-fit: cover;
+ height: 100%;
+ width: 100%;
+ display: block; /* Let the image scale while maintaining its aspect ratio */}

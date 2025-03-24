@@ -1,0 +1,138 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url('IMG-20250216-WA0140.jpg');
+
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-family:Anton;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+#daliya{
+ height: 300px;
+ width: 300px;
+ margin:auto;
+ border-radius: 50%;
+ background-color: white;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: block;
+}
+
+
+
+
+
+
+
+/*h1{
+    color:rose-bonbon: #ff499eff;
+    font-size: larger;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+
+}
+body {
+  background-image: url('IMG-20250216-WA0140.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+
+#introduction{
+    text-align:center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #779be7ff;
+    background-color:white;
+    border: dotted;
+    border-width: 10px 4px;
+    border-radius: 10px 40px;
+    line-height: 200%;
+    text-indent: 100px;
+}
+
+
+
+
+/* CSS HEX */
+/*--rose-bonbon: #ff499eff;
+--sky-magenta: #d264b6ff;
+--lavender-floral: #a480cfff;
+--vista-blue: #779be7ff;
+--argentinian-blue: #49b6ffff;
+
+/* CSS HSL */
+/*--rose-bonbon: hsla(332, 100%, 64%, 1);
+--sky-magenta: hsla(315, 55%, 61%, 1);
+--lavender-floral: hsla(267, 45%, 66%, 1);
+--vista-blue: hsla(221, 70%, 69%, 1);
+--argentinian-blue: hsla(204, 100%, 64%, 1);
+
+/* SCSS HEX */
+/*$rose-bonbon: #ff499eff;
+$sky-magenta: #d264b6ff;
+$lavender-floral: #a480cfff;
+$vista-blue: #779be7ff;
+$argentinian-blue: #49b6ffff;
+
+/* SCSS HSL */
+/*$rose-bonbon: hsla(332, 100%, 64%, 1);
+$sky-magenta: hsla(315, 55%, 61%, 1);
+$lavender-floral: hsla(267, 45%, 66%, 1);
+$vista-blue: hsla(221, 70%, 69%, 1);
+$argentinian-blue: hsla(204, 100%, 64%, 1);
+
+/* SCSS RGB */
+/*$rose-bonbon: rgba(255, 73, 158, 1);
+$sky-magenta: rgba(210, 100, 182, 1);
+$lavender-floral: rgba(164, 128, 207, 1);
+$vista-blue: rgba(119, 155, 231, 1);
+$argentinian-blue: rgba(73, 182, 255, 1);
+
+/* SCSS Gradient */
+/*$gradient-top: linear-gradient(0deg, #ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
+$gradient-right: linear-gradient(90deg, #ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
+$gradient-bottom: linear-gradient(180deg, #ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
+$gradient-left: linear-gradient(270deg, #ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
+$gradient-top-right: linear-gradient(45deg, #ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
+$gradient-bottom-right: linear-gradient(135deg, #ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
+$gradient-top-left: linear-gradient(225deg, #ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
+$gradient-bottom-left: linear-gradient(315deg, #ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
+$gradient-radial: radial-gradient(#ff499eff, #d264b6ff, #a480cfff, #779be7ff, #49b6ffff);
