@@ -24,6 +24,13 @@ def hello_2():
 def hello_3():
     return render_template("index2.html")
 
+@app.route("/daliya/liya")
+def liya():
+    return render_template("liya.html")
+
+@app.route("daliya/nadine/hello_nadine")
+def hello_nadine():
+    return render_template('nadine.html')
 
 
 # @app.route('/<string:name>')

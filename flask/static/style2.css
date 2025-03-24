@@ -4,10 +4,20 @@ text-align:center;
 }
 
 .carousel > .carousel-inner > .carousel-item > img{
-    width:240px;
-    height:160px;
+    width:1300px;
+    height:900px;
 }
 
+h5 {
+font-family: Anton;
+font-size: 50px;
+backg
+ }
+
+ p{
+ font-family: Anton;
+font-size: 50px;
+ }
 /*.carousel-inner{
 height: 70%;
 width: 35%;
