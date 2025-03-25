@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138b4386-e136-4d8d-b982-000aa75f565f" name="Changes" comment="" />
+    <list default="true" id="138b4386-e136-4d8d-b982-000aa75f565f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/flask/nadines_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/week10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/simple_flask_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nadines_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/beach 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/beach.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/biryani.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/blindside.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/bread.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/cafe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/cocotang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/cove.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/donuts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/food.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/hat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/hotel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/hummus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/ice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/kelingking_horizontal (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/kelingking_horizontal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/kelingking_vertical.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/kimchi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/majboos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/oysters.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pho.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/sunrise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/sushiboat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/temple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/titan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/tofu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/tower.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/treehouse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/unagi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/up.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logos/logo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nadine.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,23 +69,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2uls30LNjYEEftSUQRfdLYhmM5i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.nadines_page.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/nadinelathifah/Code/week10"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.nadines_page.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;nadine&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nadinelathifah/Code/week10&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />

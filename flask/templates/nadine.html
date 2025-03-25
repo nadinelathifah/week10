@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nadine's Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <!-- Menu bar -->
+    <!-- Navbar to collapse on laptop screen (lg)-->
+    <nav class="navbar navbar-expand-lg gradient-navbar">
+        <!-- Ensures content inside container stretches the full layout of the screen even when webpage is adjusted-->
+        <div class="container-fluid">
+            <!-- a href represents a link, navbar-brand is a BS class that styles this link.
+             img element in between sets the brand link as a clickable image-->
+            <a class="navbar-brand" href="#"><img id="home-logo" src="{{ url_for('static', filename='logos/logo2.png') }}" alt="logo" height="75"></a>
+            <a class="navbar-brand" href="#"><img id="about-logo" src="{{ url_for('static', filename='logos/logo22.png') }}" alt="logo" height="75"></a>
+            <!-- Button element creates a clickable area for the user to interact with, in this case, it is creating a navigation button on the menu bar.
+             data-bs-toggle attribute specifies what action should be triggered when user interacts with the element = collapse.
+             data-bs-target attribute specifies which element is affected by the action.
+             aria-expanded = "false" indicates whether menu bar is currently expanded (false = collapsed)-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> <!-- adding span in between button creates the hamburger icon-->
+            </button>
+
+            <!-- determine id as the target of collapse. BS class combination ensures navbar collapses -->
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <!--navbar-nav is a BS class that applies styling to navbars-->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#food" class="nav-link">Favourite Food</a></li>
+                    <li class="nav-item"><a href="#movies" class="nav-link">Favourite Movies</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home-section">
+        <div class="container pt-5">
+            <h1>welcome to nadine's page</h1>
+            <p1>explore this user's profile</p1>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container-luid d-flex flex-column justify-content-center">
+            <div class="row">
+                <!-- Left column for text content -->
+                <div class="col-12 col-md-8">
+                    <h2> about me </h2>
+                    <hr>
+                    <p2>Hi, my name is Nadine!</p2>
+                    <br>
+                    <p3>And here is a little glimpse into my life &#9733 </p3>
+                    <hr>
+
+                    <!-- Main container for the whole accordion -->
+                    <div class="accordion">
+
+                        <!-- This is an accordion collapsible element wrapped into accordion-item class attribute -->
+                        <div class="accordion-item" id="useAccordion">
+                            <h3 class="accordion-header" id="heading-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-controls="collapse-1" aria-expanded="false">&#9733 where am i from?</button>
+                            </h3>
+
+                            <div id="collapse-1" class="accordion-collapse show" aria-labelledby="heading-1" data-bs-parent="#useAccordion">
+                                <div class="accordion-body">
+                                    I am originally from Jakarta, the capital city of Indonesia.
+                                    I spent the first 4 years between Brunei and Indonesia, and the subsequent 14 years in Qatar.
+                                    Once I completed secondary school, I moved to the UK to pursue higher studies, where I ended up finding a passion for coding!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="heading-2">
+                                <h3>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-controls="collapse-2" aria-expanded="false">&#9733 what are my hobbies?</button>
+                                </h3>
+                            </div>
+
+                            <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="useAccordion">
+                                <div class="accordion-body">
+                                    Something that I enjoy is going cafe-hopping with friends. There's always new places to go and new food combos and drinks to try.
+                                    I like going on walks (but not too far lol).
+                                    I also enjoy playing table tennis.
+
+                                    <div><br><img src="{{ url_for('static', filename='images/coffee.jpg') }}" alt="Coffee" width="400"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="heading-3">
+                                <h3>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-controls="collapse-3" aria-expanded="false">&#9733 what is my occupation?</button>
+                                </h3>
+                            </div>
+
+                            <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="useAccordion">
+                                <div class="accordion-body">
+                                    Since graduating, I've taken time to figure out where my passions lie and where I see myself excelling at in the future.
+                                    Many possibilities await. But for now, it's a working progress...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right column for image carousel -->
+                <div class="col-12 col-md-4 carousel-container">
+                    <div id="user-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="{{ url_for('static', filename='images/treehouse.jpg') }}" class="d-block w-100" alt="photo of user">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="{{ url_for('static', filename='images/blue.jpeg') }}" class="d-block w-100" alt="photo of user">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2500">
+                                <img src="{{ url_for('static', filename='images/cafe.jpg') }}" class="d-block w-100" alt="photo of user">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="{{ url_for('static', filename='images/sunrise.jpeg') }}" class="d-block w-100" alt="photo of user">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="{{ url_for('static', filename='images/pink.jpg') }}" class="d-block w-100" alt="photo of user">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="{{ url_for('static', filename='images/temple.jpeg') }}" class="d-block w-100" alt="photo of user">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Food Section Carousel -->
+    <section class="food-section" id="food">
+        <h2>Favourite Food &#129368</h2>
+        <hr>
+
+        <div class="container" id="myfave">
+            <div class="card">
+                <div class="card-body">
+                    <div id="foodCarousel" class="carousel carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        </div>
+                        <div class="carousel-inner">
+
+                            <div class="active carousel-item carousel-1" data-bs-interval="3000">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>&#9733 Oysters &#9733</h5>
+                                    <p>Great paired with lemon and tobasco</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item carousel-2" data-bs-interval="3000">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>&#9733 Unagi &#9733</h5>
+                                    <p>This has been my favourite since childhood</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item carousel-3" data-bs-interval="3000">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>&#9733 Sushi &#9733</h5>
+                                    <p>I can live the rest of my life eating this</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item carousel-4" data-bs-interval="3000">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>&#9733 Tofu &#9733</h5>
+                                    <p>Coco Tang has the best Vietnamese Food</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item carousel-5" data-bs-interval="3000">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>&#9733 Majboos &#9733</h5>
+                                    <p>A Kuwaiti dish best served steaming hot!</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item carousel-6" data-bs-interval="3000">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>&#9733 Biryani &#9733</h5>
+                                    <p>A wholesome meal shared with big family</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item carousel-7" data-bs-interval="3000">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>&#9733 Hummus &#9733</h5>
+                                    <p>A middle-eastern classic, served with many arabian dishes</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Carousel controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#foodCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#foodCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="movie-section" id="movies">
+        <h2>Favourite Movies</h2>
+        <hr>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="{{ url_for('static', filename='images/rememberthetitans.jpeg') }}" alt="Movie: Remember The Titans" class="img-fluid shadow rounded mb-3">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="{{ url_for('static', filename='images/americanpsycho.jpg') }}" alt="Movie: American Psycho" class="img-fluid shadow rounded mb-3">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="{{ url_for('static', filename='images/blindside.jpg') }}" alt="Movie: The Blind Side" class="img-fluid shadow rounded mb-3">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="{{ url_for('static', filename='images/happyfeet.jpg') }}" alt="Movie: The Help" class="img-fluid shadow rounded mb-3">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="{{ url_for('static', filename='images/platform.jpg') }}" alt="Movie: I Am Sam" class="img-fluid shadow rounded mb-3">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="{{ url_for('static', filename='images/upmovie.jpg') }}" alt="Movie: Up" class="img-fluid shadow rounded mb-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Powerpuff Profiles 2025</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+     <script src="{{ url_for('static', filename='styling.js') }}"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
