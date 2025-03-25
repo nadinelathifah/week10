@@ -6,11 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="d06c2d2c-cda0-402b-b3b4-9788af98808e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/Daphne.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/Daphne.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/Liya.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/Liya.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/Screenshot_20250324_140529_Chrome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/daliya_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask/daliya_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask/static/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/static/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/templates/daphne.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/daphne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/templates/daphne1.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/daphne1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/templates/emma.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/emma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask/templates/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/templates/liya.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/liya.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +29,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.daliya_page.executor": "Run",
-    "git-widget-placeholder": "daliya"
+    "git-widget-placeholder": "Merging daliya"
   }
 }]]></component>
   <component name="TaskManager">

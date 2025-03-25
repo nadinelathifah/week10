@@ -12,9 +12,6 @@ def hello_from_daliya():
 def hello_1():
     return render_template("index.html")
 
-# @app.route("/daliya/hello3")
-# def hello_3():
-#     return render_template("style.css")
 
 @app.route("/daliya/hello2")
 def hello_2():
