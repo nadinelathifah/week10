@@ -1,0 +1,265 @@
+/* Menu Styling */
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+    z-index:1000;
+}
+
+.gradient-navbar {
+    background: rgba(15, 145, 201, 0); /* Add a translucent overlay for readability */
+    color: rgba(22, 157, 191, 0.32);
+    position: fixed; /* Keeps the menu fixed at the top */
+    width: 100%; /* Ensures the menu spans across the full screenwidth */
+}
+
+/* Ensures the menu item text is white */
+.gradient-navbar a {
+    color: white;
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.7);
+}
+
+/* Menu items change colour (to black) when you hover over the text */
+.gradient-navbar a:hover {
+    color: black;
+}
+
+
+/* Content Styling */
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-section {
+    background-image: url('images/beach 2.jpeg');
+    background-position:  center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    padding-top: 130px;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-shadow: 1px 1px rgba(76, 113, 226, 0.674);
+}
+
+.home-section p1 {
+    text-transform: capitalize;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+
+
+
+/* About Section */
+.about-section {
+    background-color: rgb(253, 251, 246);
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right:50px;
+    overflow-y: auto;
+    position: relative;
+}
+
+#about .carousel-inner {
+    height: 100%;
+    width: 100%;
+    align-items: right;
+}
+
+#about .carousel-item {
+    height: 100%;
+    width: 100%;
+}
+
+#about .carousel-item img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#about .carousel-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .about-section {
+        height: auto;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .carousel-inner {
+        width: 55%;
+        max-width: 55%;
+    }
+    .carousel-item img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .carousel-container {
+        height: 300px;
+    }
+}
+
+
+
+.accordion {
+    --bs-accordion-btn-bg: rgb(204, 224, 170);
+    --bs-accordion-active-bg: rgb(147, 177, 83);
+    --bs-accordion-active-color: black;
+    --bs-accordion-bg: rgb(248, 250, 244);
+}
+
+.accordion-header button {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media (max-width: 576px) {
+    .accordion-button {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+
+    .accordion-body {
+        font-size: 0.9rem;
+    }
+}
+
+
+section {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+
+/* Food Section */
+.food-section {
+    background: rgb(236, 232, 222);
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100vh;
+
+}
+
+#foodCarousel .carousel-item {
+    height: 500px;
+}
+
+#myfave{
+    max-width: 900px;
+}
+
+.carousel-1 {
+    background: url(images/oysters.jpg) no-repeat center center/cover;
+}
+.carousel-2 {
+    background: url(images/unagi.jpg) no-repeat center center/cover;
+}
+.carousel-3 {
+    background: url(images/sushiboat.jpg) no-repeat center center/cover;
+}
+.carousel-4 {
+    background: url(images/cocotang.jpg) no-repeat center center/cover;
+}
+.carousel-5 {
+    background: url(images/majboos.jpg) no-repeat center center/cover;
+}
+.carousel-6 {
+    background: url(images/biryani.jpg) no-repeat center center/cover;
+}
+.carousel-7 {
+    background: url(images/hummus.jpg) no-repeat center center/cover;
+}
+
+#foodCarousel {
+    position: relative;
+}
+
+
+#foodCarousel .carousel-inner {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(96, 62, 3, 0.251);
+    border-radius: 50px;
+    padding: 5px;
+    max-width: 80%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    width: auto;
+    background: rgba(0, 0, 0, 0.831);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+.carousel-item h5, .carousel-item p {
+    text-shadow: 5px 5px 10px black;
+}
+
+
+@media (max-width: 767px) {
+    #foodCarousel .carousel-item img {
+        height: 250px;
+        width: 400px;
+    }
+
+    #foodCarousel .carousel-item {
+        height: 250px;
+    }
+
+    #myfave {
+        max-width: 400px;
+    }
+
+    #foodCarousel .carousel-caption {
+        transform: translateY(-50%)
+    }
+}
+
+
+
+/* Movies Section */
+#movies {
+    background-color: aliceblue;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+footer {
+    padding-left: 20px;
+    color: rgb(22, 34, 12);
+}
