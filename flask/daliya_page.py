@@ -36,6 +36,19 @@ def hello_nadine():
 def emma_page():
     return render_template("emma.html")
 
+
+
+@app.route('/daliya/Daphne')
+def daphne_page():
+    return render_template('daphne.html')
+
+
+@app.route('/daliya/Daphne2')
+def daphne_page2():
+    return render_template('daphne1.html')
+
+
+
 # @app.route('/<string:name>')
 # def home(name):
 #     return """

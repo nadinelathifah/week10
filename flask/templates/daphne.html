@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Daphne</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styledaphne.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Daphne's Webpage</h1>
+    </header>
+
+    <p>Hello! Thanks for scrolling by. My name is <strong>Daphne Obadan.</strong></p>
+    <hr>
+    <p>Here is a picture of me when I'm all made up.</p>
+    <img src="{{ url_for('static', filename='IMG-20250313-WA0011.jpg') }}" alt="Looking posh here.">
+    <hr>
+
+    <h2>About Me</h2>
+    <ol>
+        <li>I'm from <strong>Nigeria</strong>, a large western country in Africa with a good heritage and lots of fancy places to dine.</li>
+        <li>I am a <strong>Biomedical Scientist</strong> and currently live in the UK.</li>
+        <li>On days when I'm not lazy, I go on hiking trips with family and friends.
+            <br>(This, in no way makes me strong, as I've puked on one expedition - story for another day!)</li>
+    </ol>
+
+    <hr>
+
+    <h2>Present Day</h2>
+    <ol>
+        <li>I am partaking in the <strong>SKY GetIntoTech Cohort 1</strong> training on Software Development.</li>
+        <li>I have an experienced facilitator and nice teammates.</li>
+        <li>I hope to make a career change into tech.
+            <br>This means more dedicated work on my path, so there's no stopping anytime soon.</li>
+    </ol>
+
+    <hr>
+
+    <button onclick="location.href='{{ url_for('daphne_page2') }}'">Click Me</button>
+
+</body>
+</html>
