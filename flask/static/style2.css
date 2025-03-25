@@ -11,13 +11,39 @@ text-align:center;
 h5 {
 font-family: Anton;
 font-size: 50px;
-backg
+background-color:rgba(255, 255, 255, 0.5);
  }
 
  p{
  font-family: Anton;
-font-size: 50px;
+font-size: 25px;
+background-color:rgba(255, 255, 255, 0.5);
  }
+
+ .about-section {
+    background-color: rgb(253, 251, 246);
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right:50px;
+    overflow-y: auto;
+    position: relative;
+}
+
+
+ body {
+            background-color: #f0f8ff;
+            font-family: 'Anton', sans-serif;
+        }
+
+.carousel-inner img {
+    border-radius: 15px;
+}
+
+img {
+    border: 5px solid black;
+     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2)
+}
 /*.carousel-inner{
 height: 70%;
 width: 35%;
