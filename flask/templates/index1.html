@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,48 +13,67 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img id="powerpuffLogo" src="{{ url_for('static', filename='logos/logo22.png') }}" alt="logo" height="75"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#daliya" class="nav-link">Daliya</a></li>
+                    <li class="nav-item"><a href="#daphne" class="nav-link">Daphne</a></li>
+                    <li class="nav-item"><a href="#emma" class="nav-link">Emma</a></li>
+                    <li class="nav-item"><a href="#liya" class="nav-link">Liya</a></li>
+                    <li class="nav-item"><a href="#nadine" class="nav-link">Nadine</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="about-section">
-        <h1>This Is Group 2</h1>
-        <p>Hello we are Group 2</p>
+        <h1>&#9733 This Is Group 2 &#9733</h1>
+        <p>Hello We Are Group 2</p>
         <p>We are girls with the dream to reach the Moon, we will reach it after landing a few stars!!😉</p>
     </div>
     <h2 style="text-align:center">Our Team</h2>
     <div class="row">
         <div class="column">
             <div class="card">
-                <img id ="daliya" src="{{ url_for('static', filename='Screenshot_20250324_140529_Chrome.jpg') }}" alt="Daliya"  style="width:150px; height=auto;">
+                <img id ="daliya" src="{{ url_for('static', filename='daliya.jpg') }}" alt="Daliya">
                 <div class="container">
                     <h2>Daliya</h2>
                     <p class="title">Coding Nurse</p>
                     <p>Meet our mum of two, who aims to be a coding nurse</p>
                     <p>daliya@example.com</p>
-                    <p><button class="button" > <a href = "http://127.0.0.1:8000/daliya/hello1">Know me better!</a> </button></p>
+                    <p><a href="http://127.0.0.1:8000/daliya/hello1"><button class="button">&#9733 Know Daliya &#9733</button></a></p>
                 </div>
             </div>
         </div>
 
     <div class="column">
         <div class="card">
-            <img id ="daphne" src="{{ url_for('static', filename='Daphne.jpg') }}" alt="Daphne"  style="width:150px; height=auto;">
+            <img id="daphne" src="{{ url_for('static', filename='Daphne.jpg') }}" alt="Daphne">
             <div class="container">
                 <h2>Daphne</h2>
                 <p class="title">Coding Support Worker</p>
                 <p>Next is Cool coding aspirant who is going to change the world.</p>
                 <p>daphne@example.com</p>
-                <p><button class="button"><a href = "http://127.0.0.1:8000/daliya/Daphne">Know Daphne!!</a></button></p>
+                <p><a href="http://127.0.0.1:8000/daliya/Daphne"><button class="button">&#9733 Know Daphne &#9733</button></a></p>
                 </div>
             </div>
         </div>
 
     <div class="column">
         <div class="card">
-            <img id ="emma" src="{{ url_for('static', filename='Emma.jpg') }}" alt="Emma"  style="width:150px; height=auto;">
+            <img id ="emma" src="{{ url_for('static', filename='Emma.jpg') }}" alt="Emma">
             <div class="container">
                 <h2>Emma</h2>
                 <p class="title">Coding Police Researcher</p>
                 <p>Here comes, brave and coding Police, who would make the world a better place!!</p>
                 <p>emma@example.com</p>
-                <p><button class="button"><a href = "http://127.0.0.1:8000/daliya/emma">Know Emma!!</a></button></p>
+                <p><a href="http://127.0.0.1:8000/daliya/emma"><button class="button">&#9733 Know Emma &#9733</button></a></p>
                 </div>
             </div>
         </div>
@@ -62,30 +81,31 @@
         <div class="row">
         <div class="column">
             <div class="card">
-                    <img id ="liya" src="{{ url_for('static', filename='Liya.jpg') }}" alt="Liya"  style="width:150px; height=auto;">
+                    <img id ="liya" src="{{ url_for('static', filename='Liya.jpg') }}" alt="Liya">
                 <div class="container">
                     <h2>Liya</h2>
                     <p class="title">Coding Legal Tech Analyst</p>
                     <p>We have the lady of justice who uses her power of Analysis and Coding!!</p>
                     <p>liya@example.com</p>
-                    <p><button class="button"><a href = "http://127.0.0.1:8000/daliya/liya">Know Liya!!</a></button></p>
+                    <p><a href="http://127.0.0.1:8000/daliya/liya"><button class="button">&#9733 Know Liya &#9733</button></a></p>
                 </div>
             </div>
         </div>
 
         <div class="column">
             <div class="card">
-                    <img id ="nadine" src="{{ url_for('static', filename='Nadine.jpg') }}" alt="Nadine"  style="width:150px; height=auto;">
+                    <img id ="nadine" src="{{ url_for('static', filename='Nadine.jpg') }}" alt="Nadine">
                 <div class="container">
                     <h2>Nadine</h2>
                     <p class="title">Aspiring Coding Entrepreneur and Student</p>
                     <p>Last but not least, in any terms. Team lead in the making, a bright  tech student</p>
                     <p>nadine@example.com</p>
-                    <p><button class="button"><a href = "http://127.0.0.1:8000/daliya/nadine/hello_nadine">Know Nadine!!</a></button></p>
+                    <p><a href="http://127.0.0.1:8000/daliya/nadine/hello_nadine"><button class="button">&#9733 Know Nadine &#9733</button></a></p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<footer>&copy; Powerpuff Profiles 2025</footer>
 </body>
 </html>

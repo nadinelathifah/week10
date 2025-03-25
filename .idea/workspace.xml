@@ -5,44 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06c2d2c-cda0-402b-b3b4-9788af98808e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/flask/static/beach 2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/beach.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/biryani.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/blindside.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/blue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/bread.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/cafe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/cocotang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/coffee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/cove.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/donuts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/food1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/hat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/hotel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/hummus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/ice.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/kelingking_horizontal (1).jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/kelingking_horizontal.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/kelingking_vertical.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/kimchi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/majboos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/oysters.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/pho.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/pink.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/stylenadine.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/nadinestyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/sunrise.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/sushiboat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/temple.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/titan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/tofu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/tower.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/treehouse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/unagi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/static/up.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/templates/nadine.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/nadine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/static/Daphne.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/Daphne.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/static/Liya.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/Liya.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/static/Screenshot_20250324_140529_Chrome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/static/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask/static/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/templates/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask/templates/index1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
