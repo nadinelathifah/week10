@@ -57,7 +57,9 @@ html {
 .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #a480cfff;
+    background: linear-gradient(to bottom, #9b4dca, #4a90e2);
+    /* lighter background
+    background: linear-gradient(to bottom, #a480cf, #779be7); */
     color: white;
 }
 
