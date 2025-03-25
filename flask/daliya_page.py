@@ -32,9 +32,9 @@ def liya():
 def hello_nadine():
     return render_template('nadine.html')
 
-@app.route("daliya/emma")
+@app.route("/daliya/emma")
 def emma_page():
-    return render_template("emmas_page.html")
+    return render_template("emma.html")
 
 # @app.route('/<string:name>')
 # def home(name):
